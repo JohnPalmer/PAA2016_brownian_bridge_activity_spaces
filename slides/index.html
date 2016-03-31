@@ -66,13 +66,94 @@ background-color: rgba(0,0,0,0.5)
 			<section>
 			<img class="stretch" src="images/satmap_full.svg">
 			<p>Complete trajectory of person commuting to to and from work in Barcelona, Spain, over 24 hours. Synthetic data.</p>
+			</section>
+			<section>
+			<img class="stretch" src="images/satmap_sample.svg">
+			<p>Observed locations of commuter in left figure, using 10 minute sampling interval.</p>
+			</section>
 
-		
+		</section>
+
+		<section>
+			<section>
+				<h2>Traditional Approaches</h2>
+			</section>
+
+			<section>
+				<h2>Minimum Convex Polygons</h2>
+			</section>
+			<section>
+			<img class="stretch" src="images/mcp95.svg">
+			<p>Minimum convex polygon encompassing 95% of sampled locations.</p>
+			</section>
+
+			<section>
+				<h2>Standard Deviation Ellipses</h2>
+			</section>
+			<section>
+			<img class="stretch" src="images/sde.svg">
+			<p>Standard deviation ellipse from sampled locations.</p>
+			</section>
+
+			<section>
+				<h2>Traditional Kernel Density Methods</h2>
+			</section>
+			<section>
+			<section>
+			<img class="stretch" src="images/kud.svg">
+			<p>Utilization distribution based on bivariate normal kernel density. Contour lines show probability of presence.</p>
 			</section>
 
 		</section>
 
 
+		<section>
+			<section>
+				<h2>Brownian Bridges</h2>
+			</section>
+	<section>
+				<p>The Brownian bridge movement model (Bullard 1999) is based on the probability distribution of a particle following a Brownian random walk between two known locations.</p>
+			</section>
+
+	
+			<section>
+			<img class="stretch" src="images/BBMM_demo.svg">
+			<p>Brownian bridge between two sampled locations. Contour lines show probability of presence during the sampled time interval.</p>
+			</section>
+			<section>
+			<img class="stretch" src="images/BBMM_all_steps.svg">
+			<p>Individual Brownian bridges between all sampled locations. Contour lines show probability of presence during each time interval between the observed points.</p>
+			</section>
+			<section>
+			<img class="stretch" src="images/BBMM_integrated.svg">
+			<p>Brownian bridge movement model for the full sample. Contour lines show integrated probability of presence during entire 24-hour sampling period. Model estimated using dynamic approach of Kranstauber et al. (2012).</p>
+			</section>
+
+		</section>
+
+<section>
+<section>
+	<h2>References</h2>
+</section>
+<section>
+<ul>
+<li>Bullard, F. 1999. “Estimating the Home Range of an Animal: A Brownian Bridge Approach.” Chapel Hill, North Carolina, USA: The University of North Carolina.</li>
+
+<li>Horne, Jon S., Edward O. Garton, Stephen M. Krone, and Jesse S. Lewis. 2007. “Analyzing Animal Movements Using Brownian Bridges.” Ecology 88 (9): 2354–63.</li>
+
+<li>Kranstauber, Bart, Roland Kays, Scott D. LaPoint, Martin Wikelski, and Kamran Safi. 2012. “A Dynamic Brownian Bridge Movement Model to Estimate Utilization Distributions for Heterogeneous Animal Movement.” Journal of Animal Ecology 81 (4): 738–46.</li>
+</ul>
+</section>
+</section>
+
+<section>
+<section>
+	<h2>Acknowledgments</h2>
+</section>
+<section>
+	<p>This project has received funding from the European Union’s Horizon 2020 research and innovation programme under the Marie Skłodowska-Curie grant agreement No 657956.</p>
+</section>
+</section>
 
 	</div>
 
